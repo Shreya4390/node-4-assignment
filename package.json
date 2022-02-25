@@ -1,0 +1,35 @@
+{
+  "name": "4-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "addition": "nodemon --exec babel-node add.js",
+    "subtract": "nodemon --exec babel-node sub.js",
+    "multiply": "nodemon --exec babel-node mult.js",
+    "divide": "nodemon --exec babel-node div.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shreya4390/node-4-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shreya4390/node-4-assignment/issues"
+  },
+  "homepage": "https://github.com/Shreya4390/node-4-assignment#readme",
+  "dependencies": {
+    "3": "^2.1.0",
+    "4": "^0.0.0",
+    "@babel/node": "^7.16.8",
+    "async": "^3.2.3",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
